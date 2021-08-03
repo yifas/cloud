@@ -12,6 +12,8 @@
         <module>cloud-provider-9001</module>
         <module>cloud-consumer-91</module>
         <module>cloud-common</module>
+        <module>cloud-consumer-openfeign-91</module>
+        <module>cloud-provider-9002</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -54,7 +56,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>

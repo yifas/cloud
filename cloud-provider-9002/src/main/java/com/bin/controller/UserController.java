@@ -23,7 +23,6 @@ public class UserController {
         return userService.getUser(id);
     }
 
-
     @GetMapping(value = "/lb")
     public String lb() {
         return "Hello Nacos Provider i am from port: " + port;

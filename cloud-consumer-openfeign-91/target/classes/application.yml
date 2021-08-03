@@ -1,0 +1,15 @@
+server:
+  port: 91
+
+#项目名和nacos配置
+spring:
+  application:
+    name: cloud-consumer-openfeign-91
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+
+#service-url:
+  #nacos-user-service: http://cloud-provider-9001
