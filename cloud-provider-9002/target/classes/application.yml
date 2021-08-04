@@ -25,5 +25,5 @@ management:
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
-  type-aliases-package: com.atguigu.springcloud.entities
+  type-aliases-package: com.bin.entity
 

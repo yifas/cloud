@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-@RestController("/user")
+@RestController
 public class UserController {
 
     @Value("${server.port}")
